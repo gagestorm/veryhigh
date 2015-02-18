@@ -1,0 +1,46 @@
+<div id="main-container" class="container">
+    <center>
+        <h1 id="title">Heisenberg 0.5</h1>
+        <h4 id="tagline">An AI powered engine to evaluate ideas based on 
+        <br/>trends and news across the world.<br>
+        Delivers a detailed report to your email id in a hour. 
+        </h4>
+    </center>
+
+
+    <form id="form-data" action="{{{data.base_url}}}submit/idea"  method="POST">
+        <center><label class="label">Enter your email</label></center>
+        <input name="email" class="input-field" type="email" placeholder="example@gmail.com" />
+        <br/><br/>
+        <center><label class="label">Brief overview of idea <br/>(Limit to 255 character)</label></center>
+        <textarea name="idea" class="idea-space" placeholder="A Social Network for enterprise,..."></textarea>
+        <center><input type="submit" value="Send me the report" class="submit-btn" /></center>
+    </form>
+
+    <div id="content">
+        <div class="explainer">
+            <h3>How heisenberg does it ?</h3>
+            <p>Heisenberg is powered with Artifical Intelligence backed by data that
+            it aggregates every sec. It analyses tweets, comments on blog, content of blogs, list of startup
+            on various sites (AngelList,BetaList,Startuplist) to understand the trend and need. </p>
+
+            <br/>
+            <h3>What will the report contain?</h3>
+            <p>The report sent to your inbox will contain information like current competitor 
+            of the idea, similar ideas, probabilistic need of target audience for the product,
+            what people are saying about similar ideas and Heisenberg's personal advice over it.</p>
+
+            <br/>
+            <h3>More</h3>
+            <ul>
+                <li><p>We will open-source Heisenberg soon. Watch this space/follow us on Twitter.</p></li>
+                <li><p>The force is with you!</p>
+                <center>
+<a href="https://twitter.com/theziraffes" class="twitter-follow-button" data-show-count="false">Follow @theziraffes</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> </center>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
