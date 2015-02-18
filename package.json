@@ -1,0 +1,22 @@
+{
+	"name": "Heisenberg",
+	"description": "Idea Engine",
+	"version": "0.5",
+	"private": false,
+	"author": "",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/meanjs/mean.git"
+	},
+	"engines": {
+		"node": "0.10.x",
+		"npm": "1.4.x"
+	},
+	"dependencies": {
+		"express": "~4.2.0",
+		"express-session": "~1.1.0",
+		"mongoose": "~3.8.8"
+	},
+	"devDependencies": {
+	}
+}
